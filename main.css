@@ -1,0 +1,65 @@
+* {
+    /* outline:1px solid orange; */
+   background: rgb(211, 234, 243)
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  border:solid 2px black;
+  margin: 5px;
+}
+
+.flex-container .picture {
+    flex: 1;
+    width:50%;
+    text-align: center;
+}
+
+.flex-container .picture img {
+    width:65%;   
+    height:200px;
+    object-fit: cover 
+}
+
+.flex-container .name {
+    flex: 1;
+    width:55%;
+    font-size: 17px;
+    padding:10px;
+}
+
+.skills {
+    display:grid;
+    width:100%;
+}
+
+.skills h2 {
+    text-align:center;
+}
+
+.left-list {
+    grid-column: 1;
+}
+
+.right-list {
+    grid-column: 2;
+}
+
+ .skills > ul {
+    flex-direction: row;
+    flex:1;
+}
+
+.flex-container .education {
+    flex: 1;
+    text-align: left;
+}
+
+.flex-container .experience {
+    flex: 1;
+    text-align: center;
+}
+
+
+    
